@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+    <name>Genderbender-Patch</name>
+    <author>Scorpio</author>
+    <packageId>Scorpio.GenderbenderPatch</packageId>
+    <description>This mod makes so when gender is swapped so are the reproductive organs</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Abraxas.Genderbending.Corrupted.Obelisk</packageId>
+            <displayName>Genderbending Corrupted Obelisk</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3350774891</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>Abraxas.Genderbending.Corrupted.Obelisk</li>
+    </loadAfter>
+</ModMetaData>

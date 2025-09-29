@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimJobWorld</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/HediffDef[defName="Penis"]</xpath>
+                    <value>
+                        <li Class="Genderbending_CorruptedObelisk.HediffDefExtension_ReplaceOnGenderChange">
+                            <hediff>Vagina</hediff>
+                            <shouldCopySeverity>true</shouldCopySeverity>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/HediffDef[defName="Vagina"]</xpath>
+                    <value>
+                        <li Class="Genderbending_CorruptedObelisk.HediffDefExtension_ReplaceOnGenderChange">
+                            <hediff>Penis</hediff>
+                            <shouldCopySeverity>true</shouldCopySeverity>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
