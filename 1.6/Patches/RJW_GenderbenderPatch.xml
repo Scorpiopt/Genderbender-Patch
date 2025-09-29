@@ -7,7 +7,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAddModExtension">
-                    <xpath>/Defs/HediffDef[defName="Penis"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_SexPart[defName="Penis"]</xpath>
                     <value>
                         <li Class="Genderbending_CorruptedObelisk.HediffDefExtension_ReplaceOnGenderChange">
                             <hediff>Vagina</hediff>
@@ -16,7 +16,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAddModExtension">
-                    <xpath>/Defs/HediffDef[defName="Vagina"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_SexPart[defName="Vagina"]</xpath>
                     <value>
                         <li Class="Genderbending_CorruptedObelisk.HediffDefExtension_ReplaceOnGenderChange">
                             <hediff>Penis</hediff>
